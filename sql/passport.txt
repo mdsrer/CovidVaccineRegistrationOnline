@@ -1,0 +1,30 @@
+CREATE TABLE passport_table(
+   Passport_No   VARCHAR(8) NOT NULL PRIMARY KEY
+  ,Name          VARCHAR(40) NOT NULL
+  ,Date_of_Birth DATE  NOT NULL
+  ,Gender        VARCHAR(6) NOT NULL
+);
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300001','Niloy','1978-02-16','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300002','Joy','1974-09-11','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300003','Nodi','1980-02-21','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300004','Samir','1963-06-02','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300005','Husne','1954-04-11','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300006','Fahim','1957-06-06','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300007','Ariyan','1977-04-06','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300008','Peter','1995-12-14','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300009','Steve','1992-05-15','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300010','Inaya','1988-04-02','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300011','Arham','1977-07-24','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300012','Kiara','1977-11-22','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300013','Maliha','1974-07-21','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300014','Raisa','1994-01-19','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300015','Sifat','1967-12-31','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300016','Azmat','1954-08-20','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300017','Ismat','1974-02-22','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300018','Sabby','2000-02-05','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300019','Saiful','1985-11-17','Male');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300020','Khadiza','1976-08-19','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300021','Anika','1952-09-14','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300022','Mannan','2000-03-26','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300023','Sadia','1981-08-06','Female');
+INSERT INTO passport_table(Passport_No,Name,Date_of_Birth,Gender) VALUES ('AB300024','Rafa','1971-05-07','Female');

@@ -1,0 +1,30 @@
+CREATE TABLE birth_certificate_table(
+   Birth_Certificate_No INTEGER  NOT NULL PRIMARY KEY 
+  ,Name                 VARCHAR(40) NOT NULL
+  ,Date_of_Birth        DATE  NOT NULL
+  ,Gender               VARCHAR(6) NOT NULL
+);
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000001,'Niloy','1978-02-16','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000002,'Joy','1974-09-11','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000003,'Nodi','1980-02-21','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000004,'Samir','1963-06-02','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000005,'Husne','1954-04-11','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000006,'Fahim','1957-06-06','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000007,'Ariyan','1977-04-06','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000008,'Peter','1995-12-14','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000009,'Steve','1992-05-15','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000010,'Inaya','1988-04-02','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000011,'Arham','1977-07-24','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000012,'Kiara','1977-11-22','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000013,'Maliha','1974-07-21','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000014,'Raisa','1994-01-19','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000015,'Sifat','1967-12-31','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000016,'Azmat','1954-08-20','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000017,'Ismat','1974-02-22','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000018,'Sabby','2000-02-05','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000019,'Saiful','1985-11-17','Male');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000020,'Khadiza','1976-08-19','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000021,'Anika','1952-09-14','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000022,'Mannan','2000-03-26','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000023,'Sadia','1981-08-06','Female');
+INSERT INTO birth_certificate_table(Birth_Certificate_No,Name,Date_of_Birth,Gender) VALUES (20000024,'Rafa','1971-05-07','Female');
